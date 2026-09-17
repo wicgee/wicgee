@@ -1,35 +1,49 @@
 <p align="center">
-  <img src="assets/readme-banner.png" alt="WanWeave · 一切皆可组合" width="100%">
+  <img src="assets/readme-banner.png" alt="WanWeave — everything composable" width="100%">
 </p>
 
-## 你好，我是 wicgee
+# wicgee
 
-在造 **WanWeave / Product Harness** —— 一套让多个仓库组合成可交付产品的平台。
+**Everything composable.**
 
-> 一切皆可组合，交付皆有 Workspace，仓库只承载所有权。
+I'm building **WanWeave** — a harness for composing many repositories into a single
+deliverable.
 
-## 我在做什么
+A loom, not a warehouse. Each thread keeps its own identity; the cloth is only what the
+threads agree to become. Most software does the opposite — it welds ownership, delivery
+and release into one repository, then spends years paying for the weld.
 
-把平台拆成各自持有所有权的仓库：契约、控制面、身份、凭证、能力入口、审批与执行、管理台、运维、验收。再用一份 Manifest 把它们组合起来——组合的**意图**、实际观察到的**精确版本**、以及验证过的**证据**分开记录，互相不能冒充。
+The wager is the other direction: many small owners, each answerable for exactly one
+thing, composed into something that ships — and a composition that can be described,
+checked, and taken apart again.
 
-难点从来不是写代码，是多仓拼成一个产品之后：组合会漂移、跨仓契约没有唯一归属、并行的人和 agent 没有共享状态。
+Most of the work is writing the rules down.
 
-## 我怎么看工程
+## How I work
 
-- **意图和事实分家。** 事实自己查——读文件、翻历史、跑只读命令；意图必须问清楚，不猜。
-- **结论要经得起复测。** 路径给绝对的，命令给可复现的，结论给出处。没跑过的门禁不说"通过"，没核验的远端不说"已同步"。
-- **失败不掩盖。** 降级、跳过、绕过验证，都不算通过。
-- **复杂度要有证据。** 不为想象中的未来建设机制；也不拿"先做能用"当降低质量的借口。
+**Find the facts; ask the intent.** Read the code, the history, the running system before
+asking anything — but never guess what someone wants. An incomplete truth beats a
+complete fiction.
 
-## 关于 AI
+**Claim nothing unverified.** A gate I didn't run did not pass. A remote I didn't check is
+not in sync. I would rather tell you where I'm stuck.
 
-我把 agent 当主力工程师用，所以它的行为是**写下来的**：人格、边界、门禁、验证纪律都落到文件里，不留在某次对话的上下文里。会话会丢，文件不会。
+**Never bury a failure.** Degrading, skipping, or routing around a check is not passing it.
 
-## 链接
+**Complexity pays rent.** Every mechanism earns its place with a present need or evidence
+— never with a speculative future.
 
-- [multi-workspace](https://github.com/multi-workspace) —— 机制层命名空间与平台入口
-- [wanweave](https://github.com/wanweave) —— 品牌与对外身份
+## On machines
+
+I work with AI agents as engineers, not as autocomplete. So their behavior is written
+down — identity, boundaries, gates, the discipline of proof — in files, not in a chat
+window. Sessions forget. Files don't.
+
+## Elsewhere
+
+- **[multi-workspace](https://github.com/multi-workspace)** — where it's being built
+- **[wanweave](https://github.com/wanweave)** — the name it will go by
 
 ---
 
-> Code is like poetry, concise and elegant.
+> *Code is like poetry, concise and elegant.*
