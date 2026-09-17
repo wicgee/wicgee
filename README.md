@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-horizontal-dark.svg">
-    <img src="assets/logo-horizontal-light.svg" alt="WanWeave" width="380">
+    <img src="assets/logo-horizontal-light.svg" alt="WanWeave" width="500">
   </picture>
 </p>
 
